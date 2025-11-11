@@ -82,8 +82,21 @@ demo = gr.Interface(
     inputs=gr.Image(type="pil"),
     outputs=gr.Label(num_top_classes=3, label="Predictions"),
     title="🍕🥩🍣 FoodVision Classifier",
-    description=f"Upload pizza, steak, or sushi images for classification!\n\n**Model:** {model_name} | **Accuracy:** {test_accuracy:.2%}",
+    description=f"Upload **pizza**, **steak**, or **sushi** images!\\n\\n**Model:** {model_name} | **Accuracy:** {test_accuracy:.2%}",
     theme="soft",
+    examples=[
+        ["examples/pizza.jpg"],
+        ["examples/steak.jpg"],
+        ["examples/sushi.jpg"],
+        ["examples/pizza2.jpg"],
+        ["examples/steak2.jpg"],
+        ["examples/sushi2.jpg"],
+        ["examples/pizza3.jpg"],
+        ["examples/steak3.jpg"],
+        ["examples/sushi3.jpg"]
+    ],
+    examples_per_page=3,
+    cache_examples=False,
 )
 
 if __name__ == "__main__":
