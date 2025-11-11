@@ -10,10 +10,11 @@ pinned: false
 ---
 
 # FoodVision: Deep Learning Food Classifier
-- App URL: https://huggingface.co/spaces/rogerqiu77/foodvision-deep-learning-classifier
-- Github Repo: https://github.com/rogerqiu7/foodvision-deep-learning-classifier
 
 A PyTorch-based image classifier using transfer learning (ResNet50) achieving 98% accuracy on pizza/steak/sushi classification.
+
+- App URL: https://huggingface.co/spaces/rogerqiu77/foodvision-deep-learning-classifier
+- Github Repo: https://github.com/rogerqiu7/foodvision-deep-learning-classifier
 
 ## 🎯 Features
 
@@ -21,8 +22,6 @@ A PyTorch-based image classifier using transfer learning (ResNet50) achieving 98
 - **MLflow Experiment Tracking** for model comparison and versioning
 - **Gradio Web Interface** for real-time predictions
 - **98.12% Test Accuracy** on food image classification
-
-## 🚀 [Try the Live Demo](https://huggingface.co/spaces/YOUR_USERNAME/foodvision-classifier)
 
 ## 📊 Results
 
